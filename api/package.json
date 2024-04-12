@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prestart": "chmod +x node_modules/.bin",
+    "prestart": "chmod +x node_modules/.bin/nodemon",
     "start": "nodemon -L",
     "test": "mocha -w ./tests/**/*.spec.js"
   },
